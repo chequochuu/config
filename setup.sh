@@ -1,3 +1,4 @@
+rm -rf ~/.oh-my-zsh.bak
 mv ~/.oh-my-zsh ~/.oh-my-zsh.bak
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
