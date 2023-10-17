@@ -1,6 +1,9 @@
+set -x;
+
 rm -rf ~/.oh-my-zsh.bak
 mv ~/.oh-my-zsh ~/.oh-my-zsh.bak
 sudo apt install zsh
+# this command will run in sub shell, close it to continue the run
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cp .vimrc ~/
 cp .zshrc ~/

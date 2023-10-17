@@ -2,12 +2,12 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/che/.oh-my-zsh
+  export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#POWERLEVEL9K_MODE='awesome-fontconfig'
+POWERLEVEL9K_MODE='awesome-fontconfig'
 #POWERLEVEL9K_MODE='awesome-fontconfig'
 #POWERLEVEL9K_MODE='nerdfont-complete'
 ZSH_THEME="powerlevel9k/powerlevel9k"
@@ -112,7 +112,6 @@ alias echo2='cowsay -f $(ls /usr/share/cowsay/cows|shuf -n1)'
 
 #[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export KEYTIMEOUT=1
-export PATH=$PATH:/home/che/code/minimap2:/home/che/code/miniasm:/home/che/bioturing/tool/quast-5.0.0
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export chedev=che@dev.bioturing.com
 
